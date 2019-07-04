@@ -303,7 +303,7 @@ instance Default XPColor where
 
 instance Default XPConfig where
   def =
-    XPC { font                  = "-misc-fixed-*-*-*-*-12-*-*-*-*-*-*-*"
+    XPC { font                  = "-misc-fixed-*-*-*-*-*-*-*-*-*-*-*-*"
         , bgColor               = bgNormal def
         , fgColor               = fgNormal def
         , bgHLight              = bgHighlight def
